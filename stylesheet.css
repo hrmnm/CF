@@ -1,0 +1,235 @@
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:　sans-serif;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding-left: 260px;
+  text-align: center;
+}
+
+.sep {
+  margin: 60px 0;
+  width: 20px;
+}
+
+/*====sidebar===*/
+.sidebar {
+    font-size: 15px;
+    padding: 30px 0;
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    color: #fff;
+    background: #ffcd5e;
+    text-align: center;
+}
+
+.logo_deco {
+  width: 70%;
+}
+
+.logo {
+  font-size: 40px;
+  margin-bottom: 40px;
+  line-height: 45px;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.tab {
+  display: block;
+  font-size: 18px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+  padding:10px 0;
+  margin: 5px 0;
+}
+
+.tab:hover {
+  background:rgba(241, 241, 241, 0.27) ;
+  transition: 0.5s;
+}
+
+li p {
+  font-size: 10px;
+}
+
+
+/*====TOP===*/
+
+.top_wrapper {
+
+}
+
+.top_1234 {
+  width: 90%;
+  margin: 50px 0;
+}
+
+.top_title {
+  padding: 30px　0;
+}
+
+.top_title h1 {
+  font-size: 65px;
+  padding: 10px 0;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.top_title h4 {
+  padding: 5px 0;
+}
+
+.top_title p {
+  font-size: 14px;
+  padding: 2px 0;
+}
+
+/*====TOP-CONCEPTO===*/
+
+.title {
+  padding-bottom: 30px;
+}
+
+.title p {
+  font-size: 10px;
+}
+
+.copy h4 {
+  padding-bottom: 5px;
+}
+
+.copy p{
+  font-size: 13px;
+  padding: 2px 0;
+}
+
+.description {
+  padding: 40px 0;
+  display: inline-block;
+  width :80%;
+  max-width: 680px;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.link-btn {
+  position: relative;
+  background: #fff;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.link-btn a {
+  color: black;
+  display:　block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+
+.link-btn::after{
+  position: absolute;
+  top: -10px; bottom: -10px;
+  left: -10px; right: -10px;
+  background: repeating-linear-gradient(-45deg, #d0d0d0, #d0d0d0 2px, #fff 2px, #fff 5px);
+  border-radius: 10px;
+  content: '';
+  z-index: -1;
+  margin: 0 auto;
+}
+
+.link-btn:hover {
+  background: rgba(255, 255, 255, 0.65);
+  transition: 0.5s;
+}
+
+/*====TOP-AVISO===*/
+
+.aviso-wrapper {
+  background-color: rgb(201, 251, 213);
+}
+
+.aviso-s {
+
+}
+
+.aviso {
+  width: 200px;
+  height:200px;
+  display: inline-block;
+  vertical-align:top;
+}
+
+.tag-media {
+  width: 60px;
+  height: 25px;
+  background: #80affa;
+  color: #fff;
+  font-size: 10px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.tag-relese {
+  width: 60px;
+  height: 25px;
+  background: #f6ca68;
+  color: #fff;
+  font-size: 10px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.tag-aviso {
+  width: 60px;
+  height: 25px;
+  background: #ff7c80;
+  color: #fff;
+  font-size: 10px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.date {
+  font-size: 16px;
+  text-align: left;
+  padding: 5px 0;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.aviso-title {
+  font-size: 15px;
+  text-align: left;
+  padding: 5px 0;
+}
