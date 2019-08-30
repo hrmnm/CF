@@ -65,11 +65,11 @@ a {
   cursor: pointer;
   padding:10px 0;
   margin: 5px 0;
+  transition: 0.1s all ease 0.1s;
 }
 
 .tab:hover {
   background:rgba(241, 241, 241, 0.27) ;
-  transition: 0.5s;
 }
 
 li p {
@@ -79,11 +79,7 @@ li p {
 
 /*====TOP===*/
 
-.top_wrapper {
-
-}
-
-.top_1234 {
+.top_image {
   width: 90%;
   margin: 50px 0;
 }
@@ -144,6 +140,7 @@ li p {
   line-height: 40px;
   margin: 0 auto;
   margin-top: 40px;
+  transition: 0.2s all ease 0.2s;
 }
 
 .link-btn a {
@@ -170,25 +167,17 @@ li p {
 }
 
 .link-btn:hover {
-  background: rgba(255, 255, 255, 0.65);
-  transition: 0.5s;
+  background: rgba(252, 248, 236, 0.65);
 }
 
 /*====TOP-AVISO===*/
 
-.aviso-wrapper {
-  background-color: rgb(201, 251, 213);
-}
-
-.aviso-s {
-
-}
-
 .aviso {
   width: 200px;
-  height:200px;
+  height:140px;
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
+  margin: 10px 0;
 }
 
 .tag-media {
@@ -234,4 +223,166 @@ li p {
   padding: 5px 0;
 }
 
-/*====FOOTER===*/
+/*====TOP-TIENDA===*/
+
+.shop {
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.shop h5 {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.shop p {
+  font-size: 12px;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.map {
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+.map-png {
+  width: 250px;
+}
+
+
+.link-btn-2 {
+  position: relative;
+  background: #fff;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-top: 40px;
+  transition: 0.2s all ease 0.2s;
+}
+
+.link-btn-2 a {
+  color: black;
+  display:　block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  width: 100%;
+  height:100%;
+  text-align: center;
+}
+
+.link-btn-2::after{
+  position: absolute;
+  top: -10px; bottom: -10px;
+  left: -10px; right: -10px;
+  background: repeating-linear-gradient(-45deg, #d0d0d0, #d0d0d0 2px, #fff 2px, #fff 5px);
+  border-radius: 10px;
+  content: '';
+  z-index: -1;
+  margin: 0 auto;
+}
+
+.link-btn-2:hover {
+  background: rgba(252, 248, 236, 0.65);
+}
+
+/*====ICON===*/
+
+.side-footer {
+  position: fixed;
+  bottom: 0;
+  width: 260px;
+  padding: 5px 0;
+}
+
+.side-sns {
+  font-size: 25px;
+}
+
+.side-sns p {
+  color:rgb(162, 162, 162);
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.facebook {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.twitter {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.instagram {
+  color: #fff;
+}
+
+.privacy {
+  color:rgb(162, 162, 162);
+  font-size: 10px;
+  padding: 5px 0;
+  display: block;
+}
+
+.privacy:hover {
+  color:rgb(162, 162, 162);
+  opacity: 0.5;
+  font-size: 10px;
+  padding: 5px 0;
+  display: block;
+}
+
+
+/*====CONCEPT===*/
+
+.about_specialty h5 {
+  display: inline-block;
+  margin: 10px 0;
+  vertical-align:top;
+  padding: 5px 10px;
+}
+
+.about_specialty p {
+  max-width: 310px;
+  width:100%;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.beans {
+  padding: 20px 0;
+
+}
+
+.beans_size {
+  width: 150px;
+  display:inline-block;
+}
+
+.list {
+  font-size: 12px;
+  text-align: left;
+  vertical-align:top;
+  display: inline-block;
+  padding: 0 20px ;
+}
+
+.number {
+  font-size: 14px;
+}
+
+.flavor {
+  font-size: 12px;
+  width: 300px;
+}
