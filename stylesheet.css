@@ -80,11 +80,8 @@ li p {
 
 .top_image {
   width: 90%;
+  max-width: 900px;
   margin: 50px 0;
-}
-
-.top_title {
-  padding: 30px　0;
 }
 
 .top_title h1 {
@@ -93,12 +90,12 @@ li p {
 }
 
 .top_title h4 {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 .top_title p {
-  font-size: 14px;
-  padding: 2px 0;
+  font-size: 12px;
+  padding-bottom: 20px;
 }
 
 /*====TOP-CONCEPTO===*/
@@ -111,17 +108,7 @@ li p {
   font-size: 10px;
 }
 
-.copy h4 {
-  padding-bottom: 5px;
-}
-
-.copy p{
-  font-size: 13px;
-  padding: 2px 0;
-}
-
 .description {
-  padding: 40px 0;
   display: inline-block;
   width :80%;
   max-width: 680px;
@@ -342,6 +329,10 @@ li p {
 
 /*====CONCEPT===*/
 
+.beans-wrapper {
+  margin-bottom: 60px;
+}
+
 .about_specialty h5 {
   display: inline-block;
   margin: 10px 0;
@@ -364,7 +355,7 @@ li p {
 }
 
 .beans_size {
-  width: 150px;
+  width: 170px;
   display:inline-block;
 }
 
@@ -382,5 +373,60 @@ li p {
 
 .flavor {
   font-size: 12px;
-  width: 300px;
+  max-width: 360px;
+}
+
+/*====MENU===*/
+
+.menu_name {
+  margin-bottom: 15px;
+}
+
+.menu_name p {
+  font-size: 10px;
+}
+.cafe_list_range {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.cafe_list li {
+  display: inline-block;
+  padding: 10px 0;
+  vertical-align: top;
+  margin-left: 25px;
+}
+
+.cafe_list p {
+  font-size: 10px;
+}
+
+.hiero {
+  width: 70%;
+}
+
+.cafe_list span {
+  font-size: 10px;
+}
+
+/*====FOOTER===*/
+
+.pankuzu {
+  background-color: rgb(210, 210, 210);
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.pankuzu a {
+  color: #000;
+  padding-left: 20px;
+}
+
+.pankuzu p {
+  line-height: 30px;
+  display: inline;
 }
