@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: 'Sorts Mill Goudy','Noto Serif JP', serif;
+  font-family: 'Noto Serif JP','Noto Serif JP', serif;
   letter-spacing: 3px;
   margin: 0;
 }
@@ -45,6 +45,15 @@ a {
     background: #ffcd5e;
     text-align: center;
 }
+
+.sidebar h1 {
+  color: #fff;
+}
+
+.sidebar h1:hover {
+  opacity: 0.8;
+}
+
 
 .logo_deco {
   width: 70%;
