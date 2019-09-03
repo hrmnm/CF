@@ -75,6 +75,58 @@ li p {
   font-size: 10px;
 }
 
+/*====ICON===*/
+
+.side-footer {
+  position: fixed;
+  bottom: 0;
+  width: 260px;
+  padding: 5px 0;
+}
+
+.side-sns {
+  font-size: 25px;
+}
+
+.side-sns p {
+  color:rgb(162, 162, 162);
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.facebook {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.twitter {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.instagram {
+  color: #fff;
+}
+
+.privacy {
+  color:rgb(162, 162, 162);
+  font-size: 10px;
+  padding: 5px 0;
+  display: block;
+}
+
+.privacy:hover {
+  color:rgb(162, 162, 162);
+  opacity: 0.5;
+  font-size: 10px;
+  padding: 5px 0;
+  display: block;
+}
+
 
 /*====TOP===*/
 
@@ -274,58 +326,6 @@ li p {
   background: rgba(252, 248, 236, 0.65);
 }
 
-/*====ICON===*/
-
-.side-footer {
-  position: fixed;
-  bottom: 0;
-  width: 260px;
-  padding: 5px 0;
-}
-
-.side-sns {
-  font-size: 25px;
-}
-
-.side-sns p {
-  color:rgb(162, 162, 162);
-  font-size: 10px;
-  padding: 5px 0;
-}
-
-.icon:hover {
-  opacity: 0.5;
-}
-
-.facebook {
-  color: #fff;
-  margin-right: 5px;
-}
-
-.twitter {
-  color: #fff;
-  margin-right: 5px;
-}
-
-.instagram {
-  color: #fff;
-}
-
-.privacy {
-  color:rgb(162, 162, 162);
-  font-size: 10px;
-  padding: 5px 0;
-  display: block;
-}
-
-.privacy:hover {
-  color:rgb(162, 162, 162);
-  opacity: 0.5;
-  font-size: 10px;
-  padding: 5px 0;
-  display: block;
-}
-
 
 /*====CONCEPT===*/
 
@@ -378,6 +378,9 @@ li p {
 
 /*====MENU===*/
 
+.menu_wrapper {
+}
+
 .menu_name {
   margin-bottom: 15px;
 }
@@ -410,11 +413,121 @@ li p {
   font-size: 10px;
 }
 
+/*====TIENDA===*/
+
+.shop_h4 {
+  margin-bottom: 20px;
+}
+
+.shop tr {
+  display: block;
+  margin: 20px 0;
+
+}
+
+.shop th{
+  font-size: 12px;
+  width: 100px;
+}
+
+.shop td {
+  font-size: 12px;
+  width: 330px;
+  text-align: left;
+}
+
+iframe {
+  width: 80%;
+  height: 500px;
+  border: 0;
+}
+
+
+/*====CONTACTO===*/
+
+.fa-star {
+  font-size: 15px;
+  color: #f8d17d;
+}
+
+.contact_form {
+  max-width: 500px;
+  width: 80%;
+  display: inline-block;
+}
+
+.contact p {
+  text-align: left;
+  font-size: 12px;
+}
+
+select {
+  width: 100%;
+  height: 35px;
+  margin: 3px 0 15px 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: 0.3s;
+	letter-spacing: 1px;
+	color: #6a6a6a;
+	border: 3px solid #c7b5b5;
+	border-radius: 4px;
+}
+
+input {
+  width: 100%;
+  margin: 3px 0 15px 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: 0.3s;
+	letter-spacing: 1px;
+	color: #6a6a6a;
+	border: 3px solid #c7b5b5;
+	border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 3px 0 15px 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: 0.3s;
+	letter-spacing: 1px;
+	color: #6a6a6a;
+	border: 3px solid #c7b5b5;
+	border-radius: 4px;
+}
+
+.submit {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  background-color: #c7b5b5;
+  color: #fff;
+  box-shadow: 2px 3px 5px rgb(199, 199, 199);
+  border: none;
+}
+
+.submit:hover {
+  box-shadow: none;
+  background-color: #f8d17d;
+}
+
 /*====FOOTER===*/
+
+footer {
+  width: 100%;
+  bottom: 0;
+  margin-top: 100px;
+}
 
 .pankuzu {
   background-color: rgb(210, 210, 210);
-  width: 100%;
   height: 30px;
   margin-top: 30px;
   font-size: 12px;
