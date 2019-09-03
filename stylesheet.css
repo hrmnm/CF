@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family:　'Sorts Mill Goudy',sans-serif;
+  font-family: 'Sorts Mill Goudy','Noto Serif JP', serif;
   letter-spacing: 3px;
   margin: 0;
 }
