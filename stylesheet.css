@@ -37,14 +37,18 @@ a {
 /*====sidebar===*/
 
 #sidebar {
-  font-size: 15px;
-  padding: 30px 0;
-  width: 260px;
-  height: 100%;
-  position: fixed;
-  color: #fff;
-  background: #ffcd5e;
-  text-align: center;
+    font-size: 15px;
+    padding: 30px 0;
+    width: 260px;
+    height: 100%;
+    position: fixed;
+    color: #fff;
+    background: #ffcd5e;
+    text-align: center;
+}
+
+#menu_bar {
+  display: none;
 }
 
 #sidebar h1 {
