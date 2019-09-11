@@ -18,20 +18,27 @@
 
   #menu_bar {
     display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #ffcd5e;
+    width:100%;
+    padding: 10px 0 10px 30px;
   }
 
   #menu_bar span {
-  font-size: 35px;
-  color: #fff;
-  background: #ffcd5e;
-  width:100%;
-  padding: 10px 0 10px 30px;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+  .pankuzu {
+    padding: 0;
   }
 
 @media (max-width: 500px){
 
   .container {
-    padding: 0;
+    padding: 0 15px;
     width: 100%; /* 最大横幅 */
     margin: 0 auto;
     overflow: hidden;

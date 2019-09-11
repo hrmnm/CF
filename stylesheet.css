@@ -293,15 +293,11 @@ li p {
   text-align: left;
 }
 
-.map {
-  display: inline-block;
-  padding-bottom: 30px;
+.iframe {
+  display:inline-block;
+  width:250px;
+  height:250px;
 }
-
-.map-png {
-  width: 250px;
-}
-
 
 .link-btn-2 {
   position: relative;
@@ -311,6 +307,7 @@ li p {
   line-height: 30px;
   margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 30px;
   transition: 0.2s all ease 0.2s;
 }
 
@@ -515,6 +512,7 @@ textarea {
 	color: #6a6a6a;
 	border: 3px solid #c7b5b5;
 	border-radius: 4px;
+	
 }
 
 .submit {
@@ -547,6 +545,7 @@ footer {
   margin-top: 30px;
   font-size: 12px;
   text-align: left;
+  padding-left: 260px;
 }
 
 .pankuzu a {
