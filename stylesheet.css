@@ -34,9 +34,9 @@ a {
   width: 20px;
 }
 
-/*====sidebar===*/
+/*====sidemenu===*/
 
-#sidebar {
+.sidemenu {
     font-size: 15px;
     padding: 30px 0;
     width: 260px;
@@ -47,16 +47,11 @@ a {
     text-align: center;
 }
 
-#menu_bar {
-  display: none;
-
-}
-
-#sidebar h1 {
+.sidemenu h1 {
   color: #fff;
 }
 
-#sidebar h1:hover {
+.sidemenu h1:hover {
   opacity: 0.8;
 }
 
