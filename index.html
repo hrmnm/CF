@@ -10,18 +10,28 @@
   <link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Vollkorn&display=swap" rel="stylesheet">
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <script typr="text/javascript" src="cf.js"></script>
   
-  <script type="text=/javascript" src="cf.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
 </head>
 
 <body>
-  <div id="menu_bar"><span class="fas fa-bars"></span></div>
-  <aside id="sidebar">
+  <div class="drawer drawer--left">
+  <button type="button" class="drawer-toggle drawer-hamburger">
+    <span class="sr-only">toggle navigation</span>
+    <span class="drawer-hamburger-icon"></span>
+  </button>
+
+  <aside class="drawer-nav sidemenu">
     <img src="images/logo_deco.png" class="logo_deco">
     <a href="index.html">
       <h1 class="logo">LINDO<br>CAFE</h1>
     </a>
-    <nav id="global_nav">
+    <nav class="drawer-menu">
       <ul>
         <li><a href="pages/concepto.html" class="tab"><p>コンセプト</p>CONCEPTO</a></li>
         <li><a href="pages/menu.html" class="tab"><p>メニュー</p>MENU</a></li>
@@ -45,7 +55,14 @@
       </div>
     </div>
   </aside>
-  </header>
+  </div>
+
+  <script>
+  $(function() {
+    $('.drawer').drawer();
+  });
+  </script>
+
   <section class="top_wrapper">
     <a name=”back-top”></a>
     <div class="container">

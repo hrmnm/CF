@@ -7,33 +7,14 @@
     overflow: hidden;
   }
 
-  header {
-    padding:10px;
-    background: skyblue;
-  }
-
-  #sidebar {
-    display: none;
-  }
-
-  #menu_bar {
+  .drawer-hamburger {
     display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    color: #ffcd5e;
-    width:100%;
-    padding: 10px 0 10px 30px;
-  }
-
-  #menu_bar span {
-    font-size: 35px;
-    cursor: pointer;
   }
   
   .pankuzu {
     padding: 0;
   }
+}
 
 @media (max-width: 500px){
 
@@ -44,7 +25,4 @@
     overflow: hidden;
   }
 
-  #sidebar {
-    display: none;
-  }
 }
