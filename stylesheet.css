@@ -63,6 +63,9 @@ a {
   opacity: 0.8;
 }
 
+.drawer-nav {
+  background-color:#ffcd5e; 
+}
 
 .logo_deco {
   width: 70%;
