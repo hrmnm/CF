@@ -42,13 +42,17 @@ a {
     width: 260px;
     height: 100%;
     position: fixed;
-    color: #fff;
-    background: #ffcd5e;
+    color: #ffcd5e;
+    background: #fff;
     text-align: center;
 }
 
 .sidemenu h1 {
-  color: #fff;
+  color: #ffcd5e;
+}
+
+.sidemenu p {
+  color: #ffcd5e;
 }
 
 .sidemenu h1:hover {
