@@ -55,6 +55,10 @@ a {
   color: #ffcd5e;
 }
 
+.sidemenu a {
+  color: #ffcd5e;
+}
+
 .sidemenu h1:hover {
   opacity: 0.8;
 }
