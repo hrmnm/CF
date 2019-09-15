@@ -1,8 +1,89 @@
-@media screen and (min-width:780px) {
-   #nav-drawer {
-     display:none;
-   }
- }
+@media (min-width: 780px){
+.header-logo-menu{
+ display:none;
+}
+
+
+.sidemenu {
+  font-size: 15px;
+  padding: 30px 0;
+  width: 260px;
+  height: 100%;
+  position: fixed;
+  left:0;
+  color: #f6ca68;
+  background-color:#f6ca68;
+  text-align: center;
+  display:block;
+}
+
+#side-content p {
+ color:#fff;
+}
+
+#side-contents a {
+ color:#fff;
+}
+
+.side-logo_deco {
+  width: 70%;
+}
+
+.side-logo {
+  font-size: 40px;
+  margin-bottom: 40px;
+  line-height: 45px;
+  color:#fff;
+}
+
+.side-logo:hover {
+  opacity: 0.8;
+}
+
+.tab {
+  display: block;
+  font-size: 18px;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+  padding:10px 0;
+  margin: 5px 0;
+  transition: 0.1s all ease 0.1s;
+}
+
+.tab:hover {
+  background:rgba(241, 241, 241, 0.27) ;
+}
+
+li p {
+  font-size: 10px;
+}
+
+/*====ICON===*/
+
+.side-footer {
+  bottom: 0;
+  padding: 5px 0;
+}
+
+.side-footer p{
+  color:rgb(162, 162, 162);
+  font-size:10px;
+}
+
+.privacy {
+  color:rgb(162, 162, 162);
+  font-size: 10px;
+  display: block;
+  padding-top:10px;
+}
+
+.privacy:hover {
+  opacity: 0.5;
+  font-size: 10px;
+  display: block;
+}
+}
 
 @media (max-width: 780px){
   .container {

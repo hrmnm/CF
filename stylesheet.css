@@ -103,6 +103,7 @@ a {
   transition: .3s ease-in-out;
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);
+  display:block;
 }
 
 /*チェックがついたら表示させる*/
@@ -128,6 +129,10 @@ a {
   -o-flex-direction: row;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
+}
+
+.sidemenu{
+ display:none;
 }
 
 .nav-content p {
