@@ -6,10 +6,15 @@
     margin: 0 auto;
     overflow: hidden;
   }
+
+  .drawer-hamburger {
+    display: block;
+  }
   
   .pankuzu {
     padding: 0;
   }
+}
 
 @media (max-width: 500px){
 
@@ -20,7 +25,4 @@
     overflow: hidden;
   }
 
-  #sidebar {
-    display: none;
-  }
 }
