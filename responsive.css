@@ -1,5 +1,10 @@
-@media (max-width: 780px){
+@media screen and (min-width:780px) {
+   #nav-drawer {
+     display:none;
+   }
+ }
 
+@media (max-width: 780px){
   .container {
     padding: 0 20px;
     width: 100%; /* 最大横幅 */
@@ -7,10 +12,7 @@
     overflow: hidden;
   }
 
-  .drawer-hamburger {
-    display: block;
-  }
-  
+
   .pankuzu {
     padding: 0;
   }
