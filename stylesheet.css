@@ -48,6 +48,7 @@ a {
 /*アイコンのスペース*/
 #nav-open {
   display: inline-block;
+  display:fixed;
   width: 30px;
   height: 22px;
   vertical-align: middle;
