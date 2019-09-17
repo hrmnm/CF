@@ -51,13 +51,12 @@ a {
   width: 30px;
   height: 22px;
   vertical-align: middle;
+  padding:3px;
 }
 
 /*ハンバーガーの形をCSSで表現*/
 #nav-open span, #nav-open span:before, #nav-open span:after {
   position: absolute;
-  top:5px;
-  left:5px;
   height: 3px;/*線の太さ*/
   width: 25px;/*長さ*/
   border-radius: 3px;
