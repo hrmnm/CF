@@ -408,6 +408,10 @@ li p {
   margin-bottom: 60px;
 }
 
+.about_specialty {
+  background-color: #ffffb8;
+}
+
 .about_specialty h5 {
   display: inline-block;
   margin: 10px 0;
