@@ -473,6 +473,10 @@ li p {
   text-align: left;
 }
 
+.cafe_list {
+  display: inline-block;
+}
+
 .cafe_list li {
   display: inline-block;
   padding: 10px 0;
@@ -481,8 +485,25 @@ li p {
   border-bottom: 1px dotted #909090;
 }
 
-.menu_pic {
+.cafe_block {
   display:inline-block;
+  width:180px;
+  height:50px;
+  position:relative;
+  background: #909090;
+}
+
+.menu_pic {
+  position: absolute;
+  right: 0px;
+  top:-5px;
+}
+
+.menu_des {
+  position: absolute;
+  left: 150px;
+  top:10px;
+  width:300px;
 }
 
 .cafe_list p {
