@@ -121,4 +121,8 @@ li p {
     font-size: 45px;
   }
 
+  .sp_br {
+  display:block;
+  }
+
 }
