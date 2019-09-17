@@ -481,6 +481,10 @@ li p {
   border-bottom: 1px dotted #909090;
 }
 
+.menu_pic {
+  display:inline-block;
+}
+
 .cafe_list p {
   font-size: 10px;
 }
