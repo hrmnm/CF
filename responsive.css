@@ -125,4 +125,8 @@ li p {
   display:block;
   }
 
+  .cafe_list li {
+  display:block
+  }
+
 }
