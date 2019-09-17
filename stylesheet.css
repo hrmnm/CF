@@ -56,14 +56,16 @@ a {
 /*ハンバーガーの形をCSSで表現*/
 #nav-open span, #nav-open span:before, #nav-open span:after {
   position: absolute;
+  top:5px;
+  left:5px;
   height: 3px;/*線の太さ*/
   width: 25px;/*長さ*/
   border-radius: 3px;
   display: block;
   content: '';
   cursor: pointer;
-  color: #000;
-  background-color:#000;
+  color: #f6ca68;
+  background-color:#f6ca68;
 }
 
 #nav-open span:before {
@@ -103,7 +105,6 @@ a {
   transition: .3s ease-in-out;
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);
-  display:block;
 }
 
 /*チェックがついたら表示させる*/
