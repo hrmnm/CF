@@ -95,9 +95,9 @@ li p {
   .aviso {
   width: 250px;
   height:140px;
-  display: inline-block;
+  display: block;
   vertical-align: top;
-  margin: 10px 30px;
+  margin: 10px 10px;
   }
 
   .pankuzu {
