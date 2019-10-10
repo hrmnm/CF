@@ -84,7 +84,7 @@ li p {
 }
 }
 
-@media (max-width: 800px){
+@media (max-width: 900px){
   .aviso {
   width: 250px;
   height:150px;
