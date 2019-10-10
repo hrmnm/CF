@@ -92,6 +92,9 @@ li p {
     overflow: hidden;
   }
 
+  .aviso {
+  display:bloock;
+  }
 
   .pankuzu {
     padding: 0;
