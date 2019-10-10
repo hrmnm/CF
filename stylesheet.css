@@ -286,6 +286,9 @@ li p {
 }
 
 /*====TOP-AVISO===*/
+.aviso-s{
+  text-align: center;
+}
 
 .aviso {
   width: 200px;
