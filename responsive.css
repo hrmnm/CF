@@ -86,7 +86,7 @@ li p {
 
 @media (max-width: 900px){
   .aviso {
-  width: 250px;
+  width: 260px;
   height:150px;
   vertical-align: top;
   margin: 10px 50px;
@@ -100,6 +100,7 @@ li p {
     margin: 0 auto;
     overflow: hidden;
   }
+  
 
   .pankuzu {
     padding: 0;
