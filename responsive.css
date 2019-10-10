@@ -93,7 +93,11 @@ li p {
   }
 
   .aviso {
-  display:block;
+  width: 250px;
+  height:140px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 30px;
   }
 
   .pankuzu {
